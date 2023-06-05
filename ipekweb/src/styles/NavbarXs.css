@@ -1,0 +1,125 @@
+.navbarXs {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    border-bottom: white 300px;
+    transition-timing-function: ease-in;
+    transition: 0.5s;
+  }
+  .navbarXs .main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+  }
+  .navbarXs .mainLink {
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50PX;
+  }
+  .navbarXs .main img {
+    height: 70px;
+    margin-left: 15px;
+    width: 100%;
+  }
+  .navbarXs a {
+    font-family:Arial, Helvetica, sans-serif;
+    color:#3a3f45;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-style: normal;
+    transition: all 0.2s;
+    padding: 0px ;
+    padding-right: 10px;
+    margin: 0px 15px;
+    min-height: 15px;
+    font-size: small;
+  transition: color 0.2s, border-bottom-color 0.2s;
+  
+  }
+  .navbarXs a:hover{
+    text-decoration: underline;
+    color: rgb(9, 167, 240); /* Yazının mavi olması için */
+    border-bottom: 5px solid rgb(9, 167, 240); /* Alt çizginin mavi olması için */
+    padding-bottom: 5px;
+  }
+
+  
+  
+  .navbarXs .rightSide button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;  
+  }
+ 
+  @media only screen and (max-width: 600px) {
+    .navbarXs .main {
+      padding-left: 0px !important;
+    }
+    .navbarXs .main a {
+      font-size: 13px;
+    }
+    .navbarXs .mainLink {
+      margin: 0;
+    }
+  }
+  
+.mainLinkXs{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    right: 25px;  
+}
+.searchIconXs {
+    display: flex;
+    margin-right: 20px;
+    
+    }
+    .searchIconImgXs {  
+    border: none;
+    background-color: white;
+    height: 50%;
+    
+    }  
+    .navbarXs .main svg {
+        font-size: 30px;
+        color:#acb3bd;
+        cursor: pointer;
+    }
+  .reorderIconButton{
+    border: none;
+  }
+  .listItem{
+    font-family:Arial, Helvetica, sans-serif;
+    color:#3a3f45;
+    text-decoration: none;
+    
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-style: normal;
+    transition: all 0.2s;
+    padding: 0px ;
+    padding-right: 10px;
+    
+    min-height: 15px;
+    font-size: small;
+  transition: color 0.2s, border-bottom-color 0.2s;
+  }
+  .listItem:hover{
+    text-decoration: underline;
+    color: rgb(9, 167, 240); /* Yazının mavi olması için */
+    border-bottom: 5px solid rgb(9, 167, 240); /* Alt çizginin mavi olması için */
+    padding-bottom: 5px;
+  }
+  

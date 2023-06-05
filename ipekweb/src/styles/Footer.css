@@ -1,0 +1,198 @@
+.footer {
+   position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  .foot{
+    height: 5px;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    padding-top: 10px;
+  }
+  
+  .footer p {
+    margin-top: 10px;
+    font-size: 13px;
+  }
+  .OurCustomers {
+  display: flex;
+  flex-direction: row;
+  height: 150px;
+  background-color: white;
+  
+ 
+}
+.OurCustomersXs {
+  display: flex;
+  flex-direction: row;
+  height: 150px;
+  background-color: white;
+}
+
+.navigationButton_footer{
+  
+  float: right;
+  width: 60px;
+  height: 60px;
+  border: 2px solid #2CD4E0;
+  line-height: 20px;
+  text-align: center;
+  margin: 5px 5px;
+  color: #2CD4E0;
+  font-size: 40px;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  border-radius: 60px;
+  padding: 0px 0px;
+  background-color: white;  
+}
+
+
+
+
+
+.footerOurCustomer {
+  height: 75px;
+  width: 75px;
+  border: 1px solid transparent;
+  border-radius: 100%;
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
+}
+
+.footerOurCustomer:hover {
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.footerOurCustomerMainDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+  background-color: transparent;
+  border-radius: 100%;
+}
+
+
+.OurCustomersLeftDiv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  height: 100%;
+}
+
+.OurCustomersLeftDivXs{
+align-items: end;
+
+}
+.OurCustomersFirstDiv{
+  text-align: center;
+  height: 60%;
+  padding-left: 30px;
+ 
+}
+
+
+.b{
+  height: 700px;
+}
+
+
+
+.logoList {
+  display: flex;
+  overflow: hidden;
+}
+
+.logoItem-enter {
+  transform: translateX(100%);
+  opacity: 0;
+}
+
+.logoItem-enter-active {
+  transform: translateX(0);
+  opacity: 1;
+  transition: transform 500ms, opacity 500ms;
+}
+
+.logoItem-exit {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.logoItem-exit-active {
+  transform: translateX(-100%);
+  opacity: 0;
+  transition: transform 500ms, opacity 500ms;
+}
+
+.logoItem-exit-done {
+  transform: translateX(-100%);
+  opacity: 0;
+}
+.FooterSecondDiv{
+  height: 800px;
+  
+}
+.FooterSecondDivMain{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  align-items: center;
+}
+.coImageMainContainerDiv{
+  margin-left: 50px;
+  width: 50%;
+  height: 10%;
+}
+.coImageContainerDiv{
+  height: 100px;
+  width: 800px;
+  background-repeat: no-repeat;
+}
+.coImage{
+  background-size: cover;
+  height: 50%;
+  width: 50%;
+  background-repeat: no-repeat;
+}
+.CoFinans{
+  color: white;
+}
+.FooterMenuDiv{
+  height: 800px;
+  background-color: rgba(0, 0, 0, 0.836);
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+
+ul.list-unstyled li  {
+ 
+  padding: 5px;
+}
+.FooterSubscribeDiv{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  color: white;
+
+}
+.FooterSubscribeDivContent{
+  text-decoration: underline;
+  text-decoration-line: 2px;
+}
+.FooterMenuDivContent{
+  border-bottom: 1px solid white;
+  padding-bottom: 30px;
+  border-bottom-width:5px ;
+}

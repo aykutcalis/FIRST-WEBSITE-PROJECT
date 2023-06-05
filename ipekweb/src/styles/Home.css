@@ -1,0 +1,354 @@
+.mainHomeDiv {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    
+  }
+  
+  .mainPage {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    flex: 1;
+    height: 400px;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+    
+  }
+
+  
+  .homeTextContent {
+   
+    color: white;
+    background-color: #2CD4E0;
+    border: 5px solid #2CD4E0;
+    width: 75%; 
+  }
+  
+  .moreButton {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    background-color: #2CD4E0;
+    width: 50%;
+    height: 50px;
+    border:none;
+    border-radius: 5px;
+    color: white;
+  }
+
+  .moreButton:hover{
+    background-color:blue;
+    cursor: pointer;
+  }
+
+  .thirdDivMain{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+
+  .DivMain{ 
+    text-align: center;
+    height: 160px; 
+    
+  }
+  .DivMainXs{
+    text-align: center;
+    margin-bottom: 40px;
+    
+  }
+
+
+  .divTitle{
+    margin-top: 70px;
+    color:#2CD4E0;
+  }
+
+  .divSecondTitle{
+    display: flex;
+    color:white;
+    background-color: #2CD4E0;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 35%;  
+    max-height: 50px;
+    margin-top: 70px;
+    padding: 0px 5px;
+    
+  }
+  .divSecondTitle_h {
+    white-space: nowrap;
+    font-size: 24px; 
+  }
+  
+  @media (max-width: 768px) {
+    .divSecondTitle_h {
+      font-size: 16px; 
+    }
+  }
+  
+  .DivMainText p{
+    width: 75%; margin: 0 auto;     
+  }
+
+  .navigationButton{
+    float: right;
+    width: 60px;
+    height: 60px;
+    border: 2px solid #2CD4E0;
+    line-height: 20px;
+    text-align: center;
+    margin: 5px 5px;
+    color: #2CD4E0;
+    font-size: 40px;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    border-radius: 60px;
+    padding: 0px 0px;
+    background-color: white;  
+  }
+
+.thirdMainHomeDiv {
+  display: flex;
+}
+
+.homeTextContent {
+  margin-top: 10px;
+}
+
+.moreButton {
+  margin-top: 10px;
+}
+
+.scrollableContainer {
+  overflow: hidden;
+  position: relative;
+}
+
+.scrollableContent {
+  display: flex;
+  transition: transform 0.3s; 
+}
+
+.thirdMainPage {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: center;
+  flex: 0 0 24%;
+  height:300px ;
+  color: white;
+  justify-content:center;
+  border: 7px solid white;
+}
+
+.thirdMainPageXs {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: center;
+  flex: 0 0 100%;
+  height:300px ;
+  color: white;
+  justify-content:center; 
+}
+
+.thirdMainPageXs p{
+  white-space: nowrap; 
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+  max-width: 200px; 
+  color: white;
+}
+ 
+.thirdMainPage p{
+  white-space: nowrap; 
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+  max-width: 200px; 
+  color: white;
+}
+
+.navigation {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.navigation button {
+  margin: 0 5px;
+}
+
+.navigationButtonDivXs{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bos{height: 100px;}
+
+
+
+
+
+.mainHomeDivFourthPage{
+  display: flex;
+  flex-direction: row;
+  height: 400px;
+  margin-top: 50px;
+ 
+}
+
+.mainHomeDivFourthPageXs{
+  height: 20%;
+  margin-top: 20px;
+}
+
+.leftDivs{
+  justify-content: right;
+  margin-right: 10px;
+}
+.leftDivsXs{
+  height: 200px;
+  margin-top: 20px;
+}
+.rightDivs{
+  justify-content: left;
+  margin-left: 10px;
+  gap: 10px;
+}
+.rightDivsXs .mainPage_4{
+  height: 300px;
+  margin-top: 10px;
+}
+.newsButton{
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.mainPage_4{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+
+}
+.newsButton_left{
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.navigationButton_5{
+  float: right;
+  width: 60px;
+  height: 60px;
+  border: 2px solid #2CD4E0;
+  line-height: 20px;
+  text-align: center;
+  margin: 5px 5px;
+  color: #2CD4E0;
+  font-size: 40px;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  border-radius: 60px;
+  padding: 0px 0px;
+  background-color: #eaeef1;
+}
+
+
+
+.fifthMainPageXs {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  flex: 0 0 100%;
+  height:100% ;
+  justify-content:center;  
+  margin-top: 50px;
+}
+.fifthMainPage {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  flex: 0 0 33%;
+  height: 100% ;
+  justify-content:center;  
+  margin-top: 50px;
+}
+.fifthDivMain{
+  display: flex;
+ 
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100%;
+  background-color: #f0f0f0;
+  display: flex;
+}
+.fifthPage_p{
+  width: 75%;
+  height: 75%;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+}
+
+
+
+
+.commentLogo {
+  height: 75px;
+  width: 75px;
+  border: 1px solid transparent;
+  border-radius: 100%;
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
+}
+.commentLogo:hover{
+  height:100px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.commentLogoMainDiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+  background-color: transparent;
+  border-radius: 100%;
+}
+
+.b{
+  height: 100px;
+}
+
+
+
+
+
+
+
+
+

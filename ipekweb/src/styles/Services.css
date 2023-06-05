@@ -1,0 +1,53 @@
+.ServicesTopMain{
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-repeat: none;
+    height:250px;
+    width: 100%;
+   
+    align-items: start;
+    justify-content: end;
+    color: white;
+    margin-top:100px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+}
+
+
+
+.Breadcrumb {  
+    display: flex;
+    align-items: center;
+  }
+  
+  .Breadcrumb a  {
+    color:white;
+    text-decoration: none;
+  }
+  
+.Breadcrumb a:nth-child(3) {
+    color:#2CD4E0;
+  }
+  
+.Breadcrumb p{
+    
+    content: "/";
+    color: white;
+    margin: 0 5px;
+  }
+  .ServicesCardsMainGrid{
+
+    padding: 40px;
+  }
+  .cards{
+    margin: 20px;
+  }
+  .CardActionsDiv{
+    justify-content: center;
+  }
+  .moreButton{
+    border: none;
+    height: 30px;
+  }
+  

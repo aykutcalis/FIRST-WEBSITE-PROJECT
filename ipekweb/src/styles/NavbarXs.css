@@ -1,11 +1,13 @@
 .navbarXs {
+  overflow: hidden;
     position: fixed;
     z-index: 1;
     top: 0;
     width: 100%;
-    height: 70px;
+    height: 60px;
     background-color: white;
     display: flex;
+    align-items: center;
     flex-direction: row;
     border-bottom: white 300px;
     transition-timing-function: ease-in;
@@ -15,6 +17,7 @@
     width: 100%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding-left: 50px;
   }
   .navbarXs .mainLink {
@@ -24,16 +27,16 @@
     padding-bottom: 50PX;
   }
   .navbarXs .main img {
-    height: 70px;
-    margin-left: 15px;
+    height: 45px;
+    margin-left: 0px;
     width: 100%;
   }
   .navbarXs a {
     font-family:Arial, Helvetica, sans-serif;
-    color:#3a3f45;
+    color:#67696c;
     text-decoration: none;
     margin-right: 20px;
-    font-weight: 600;
+    font-weight: 800;
     letter-spacing: 1px;
     font-style: normal;
     transition: all 0.2s;
@@ -41,7 +44,7 @@
     padding-right: 10px;
     margin: 0px 15px;
     min-height: 15px;
-    font-size: small;
+    font-size: 10px;
   transition: color 0.2s, border-bottom-color 0.2s;
   
   }
@@ -76,15 +79,15 @@
 .mainLinkXs{
     display: flex;
     flex-direction: row;
-    position: fixed;
     align-items: center;
-    justify-content: center;
-    right: 25px;  
+    justify-content: center; 
 }
 .searchIconXs {
     display: flex;
-    margin-right: 20px;
     
+    }
+    .reOrderIconDiv{
+      margin-left: 10px;
     }
     .searchIconImgXs {  
     border: none;
@@ -105,7 +108,7 @@
     color:#3a3f45;
     text-decoration: none;
     
-    font-weight: 600;
+    font-weight: 800;
     letter-spacing: 1px;
     font-style: normal;
     transition: all 0.2s;
@@ -113,13 +116,18 @@
     padding-right: 10px;
     
     min-height: 15px;
-    font-size: small;
+    font-size: 12px;
   transition: color 0.2s, border-bottom-color 0.2s;
   }
   .listItem:hover{
-    text-decoration: underline;
+    text-decoration: none;
     color: rgb(9, 167, 240); /* Yazının mavi olması için */
     border-bottom: 5px solid rgb(9, 167, 240); /* Alt çizginin mavi olması için */
     padding-bottom: 5px;
   }
-  
+  @media only screen and (max-width: 600px)
+{
+.imgDiv {
+    overflow: hidden;
+}
+}

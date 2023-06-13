@@ -1,7 +1,10 @@
-import React from 'react'
+import React from "react";
+import { BlogPageTop } from "../Pages/BlogPageDivs/BlogPageTop";
 
 export const Blog = () => {
   return (
-    <div>Blog</div>
-  )
-}
+    <div>
+      <BlogPageTop />
+    </div>
+  );
+};

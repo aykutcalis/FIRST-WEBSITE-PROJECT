@@ -1,0 +1,25 @@
+.ant-tabs-nav{
+    margin-bottom: 0 !important;
+  
+}
+.AboutUsTestimonialsMainDiv{
+    display: flex;
+    flex-direction: row;
+  
+}
+.AboutUsTestimonialsMainDivXs{
+    display: flex;
+    flex-direction: column;
+}
+.AboutUsTestimonialsDivs_p{
+    line-height: 1.42857;
+    color: #5c6873;
+    font-size: 13px;
+    font-weight: 600px;
+    width: 85%;
+    height: 85%;
+}
+.ProductionResourcess_p{
+    color: #7f8c97 !important;
+    line-height: 2;
+}

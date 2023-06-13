@@ -1,22 +1,19 @@
-import React from 'react'
-import '../styles/Home.css'
-import {FirstDiv} from '../Pages/HomePageDivs/FirstDiv'
-import { SecondDiv } from '../Pages/HomePageDivs/SecondDiv'
-import { ThirdDiv } from '../Pages/HomePageDivs/ThirdDiv'
-
-
-import { FourthDiv } from '../Pages/HomePageDivs/FourthDiv'
-import { FifthDiv } from '../Pages/HomePageDivs/FİfthDiv'
-
+import React from "react";
+import "../styles/Home.css";
+import { HomePageAboutUs } from "../Pages/HomePageDivs/HomePageAboutUs";
+import { HomePageProjects } from "../Pages/HomePageDivs/HomePageProjects";
+import { HomePageArticles } from "../Pages/HomePageDivs/HomePageArticles";
+import { HomePageTestimonials } from "../Pages/HomePageDivs/HomePageTestimonials";
+import { HomePageServices } from "../Pages/HomePageDivs/HomePageServices";
 
 export const Home = () => {
   return (
     <div>
-     <FirstDiv/>
-     <SecondDiv/>
-     <ThirdDiv/>
-     <FourthDiv/>
-   <FifthDiv/>
+      <HomePageServices />
+      <HomePageAboutUs />
+      <HomePageProjects />
+      <HomePageArticles />
+      <HomePageTestimonials />
     </div>
-  )
-}
+  );
+};

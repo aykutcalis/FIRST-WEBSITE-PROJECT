@@ -55,7 +55,7 @@ const FooterMenuDiv = () => {
     <footer className={classes.footerContainer}>
       <Container>
         <Grid container spacing={4}>
-          <Grid item xs={12} sm={4} className="FooterSubscribeDiv">
+          <Grid item xs={12} sm={4} className="FooterSubscribeDivContact">
             <Typography
               variant="h6"
               className="FooterMenuDivContent"
@@ -165,7 +165,7 @@ const FooterMenuDiv = () => {
                       variant="body2"
                       className={classes.checkboxText}
                     >
-                      <Link to="/secretPolicy" style={{ color: "white" }}>
+                      <Link to="/privacyPolicy" style={{ color: "white" }}>
                         Gizlilik politikasını {""}
                       </Link>
                       okudum.Onaylıyorum.

@@ -1,7 +1,10 @@
-import React from 'react'
+import React from "react";
+import { CoursesPageTop } from "../Pages/CoursesPageDivs/CoursesPageTop";
 
 export const Courses = () => {
   return (
-    <div>Courses</div>
-  )
-}
+    <div>
+      <CoursesPageTop />
+    </div>
+  );
+};

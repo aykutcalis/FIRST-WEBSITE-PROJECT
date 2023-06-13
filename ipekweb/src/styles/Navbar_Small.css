@@ -9,13 +9,13 @@
     border-bottom: white 300px;
   }
   .navbar .main_small img {
-    height: 70px;
+    height: 50px;
   }
   .nav_small a {
-    color:#3a3f45;
+    color:#67696c;
     text-decoration: none;
     margin-right: 20px;
-    font-weight: 600;
+    font-weight: 800;
     letter-spacing: 1px;
     font-style: normal;
     transition: all 0.2s;
@@ -23,7 +23,7 @@
     padding-right: 10px;
     margin: 0px 15px;
     min-height: 15px;
-    font-size:small;
+    font-size:12px;
     
   transition: color 0.2s, border-bottom-color 0.2s;
 

@@ -85,29 +85,33 @@
   align-items: center;
   width: 30%;
   height: 100%;
+  padding-left: 10px;
 }
 
 .OurCustomersLeftDivXs{
 align-items: end;
 
+
 }
 .OurCustomersFirstDiv{
-  text-align: center;
+  display:flex;
+  text-align:center;
   height: 60%;
-  padding-left: 30px;
+  justify-content:center;
+  
  
 }
 
 
 .b{
-  height: 700px;
+  height: 100px;
 }
 
 
 
 .logoList {
   display: flex;
-  overflow: hidden;
+  overflow-x: initial !important;
 }
 
 .logoItem-enter {
@@ -137,34 +141,32 @@ align-items: end;
   opacity: 0;
 }
 .FooterSecondDiv{
-  height: 800px;
+  height: 300px;
   
 }
 .FooterSecondDivMain{
   display: flex;
   width: 100%;
   height: 100%;
-  background-size: cover;
+  background-size:cover;
   background-repeat: no-repeat;
   color: white;
   align-items: center;
 }
 .coImageMainContainerDiv{
+  display: flex;
+  flex-direction: column;  
+  justify-content: flex-end;
   margin-left: 50px;
-  width: 50%;
-  height: 10%;
+  width: 100%;
+  height: 100%;
 }
-.coImageContainerDiv{
-  height: 100px;
-  width: 800px;
-  background-repeat: no-repeat;
+@media only screen and (max-width: 600px) {
+  .coImageMainContainerDiv{
+    margin-left: 10px;
+  }
 }
-.coImage{
-  background-size: cover;
-  height: 50%;
-  width: 50%;
-  background-repeat: no-repeat;
-}
+
 .CoFinans{
   color: white;
 }
@@ -183,9 +185,15 @@ ul.list-unstyled li  {
 .FooterSubscribeDiv{
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 15px;
   color: white;
 
+}
+.FooterSubscribeDivContact{
+  display: flex;
+  flex-direction: column;
+  
+  color: white;
 }
 .FooterSubscribeDivContent{
   text-decoration: underline;
@@ -195,4 +203,8 @@ ul.list-unstyled li  {
   border-bottom: 1px solid white;
   padding-bottom: 30px;
   border-bottom-width:5px ;
+}
+.MuiContainer-root {
+  overflow: hidden;
+  height: auto;
 }

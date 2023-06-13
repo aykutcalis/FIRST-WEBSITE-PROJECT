@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import imlogo from "../assets/imlogo.jpg";
+import imlogo from "../assets/imlogo.png";
 import { Link, NavLink } from "react-router-dom";
 import "../styles/Navbar.css";
 import SearchIcon from "@mui/icons-material/Search";
@@ -22,7 +22,7 @@ export const Navbar = () => {
 
   const [show, setShow] = useState(false);
   const controlNavBar = () => {
-    if (window.scrollY > 100) {
+    if (window.scrollY > 75) {
       setShow(true);
     } else {
       setShow(false);
@@ -61,8 +61,10 @@ export const Navbar = () => {
           {" "}
           <div className={`navbarXs ${show && "nav_small"}`}>
             <div className={`main ${show && "main_small"}`}>
-              <div className="imgDiv">
-                <img src={imlogo} alt="" />
+              <div className="imgDiv navbarLogoLinkDiv">
+                <Link to="/" className="navbarLogoLink">
+                  <img src={imlogo} />
+                </Link>
               </div>
               <div className="mainLinkXs">
                 <div className="searchIconXs">
@@ -123,8 +125,10 @@ export const Navbar = () => {
       ) : (
         <div className={`navbar ${show && "nav_small"} `}>
           <div className={`main ${show && "main_small"}`}>
-            <div className="imgDiv">
-              <img src={imlogo} alt="" />
+            <div className="imgDiv navbarLogoLinkDiv">
+              <Link to="/" className="navbarLogoLink">
+                <img src={imlogo} />
+              </Link>
             </div>
             <div className="mainLink">
               <div className="searchIcon">

@@ -24,14 +24,15 @@
   padding-bottom: 50PX;
 }
 .navbar .main img {
-  height: 100px;
+  height: 60px;
+  margin-left: 20px;
 }
 .navbar a {
   font-family:Arial, Helvetica, sans-serif;
-  color:#3a3f45;
+  color:#67696c;
   text-decoration: none;
   margin-right: 20px;
-  font-weight: 600;
+  font-weight:800;
   letter-spacing: 1px;
   font-style: normal;
   transition: all 0.2s;
@@ -39,13 +40,13 @@
   padding-right: 10px;
   margin: 0px 15px;
   min-height: 15px;
-  font-size: small;
+  font-size:12px;
 transition: color 0.2s, border-bottom-color 0.2s;
 
 }
 .navbar a:hover{
-  color: rgb(9, 167, 240); /* Yazının mavi olması için */
-  border-bottom: 5px solid rgb(9, 167, 240); /* Alt çizginin mavi olması için */
+  color: rgb(9, 167, 240); 
+  border-bottom: 5px solid rgb(9, 167, 240); 
   padding-bottom: 5px;
 }
 .searchIcon {
@@ -90,4 +91,7 @@ font-size: 1px;
 
 .active{
   color: #2CD4E0 !important;
+}
+.navbarLogoLink{
+  border-bottom: none !important;
 }

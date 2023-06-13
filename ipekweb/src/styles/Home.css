@@ -4,6 +4,22 @@
     gap: 5px;
     
   }
+  @media only screen and (max-width: 600px) {
+  .mainHomeDiv {
+    display: flex;
+    flex-direction: column;
+    margin-right: 0px !important;
+    margin-left: 0px !important; 
+    margin-top: 70px;
+    gap: 0 !important;
+    height: 750px;
+  }
+  .mainPage {
+    width: 100%;
+    margin-right: 0px !important;
+    margin-left: 0px !important; 
+  }
+}
   
   .mainPage {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -34,14 +50,29 @@
   .moreButton {
     margin-top: 0px;
     margin-bottom: 10px;
-    background-color: #2CD4E0;
+    background-color: #2CD4E0 ;
     width: 50%;
     height: 50px;
     border:none;
     border-radius: 5px;
     color: white;
   }
-
+  .moreLinkButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-decoration: none;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    background-color: #2CD4E0 !important;
+    height: 25px;
+    color: white;
+    
+  }
   .moreButton:hover{
     background-color:blue;
     cursor: pointer;
@@ -50,7 +81,7 @@
   .thirdDivMain{
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
+    margin-top: 10px;
   }
 
   .DivMain{ 
@@ -60,13 +91,14 @@
   }
   .DivMainXs{
     text-align: center;
-    margin-bottom: 40px;
-    
+    margin-bottom: 10px;
+    height: auto;
+    overflow: hidden; 
   }
 
 
   .divTitle{
-    margin-top: 70px;
+    margin-top: 30px;
     color:#2CD4E0;
   }
 
@@ -77,9 +109,10 @@
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    width: 35%;  
+    width: 40%;  
     max-height: 50px;
-    margin-top: 70px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     padding: 0px 5px;
     
   }
@@ -149,6 +182,7 @@
   color: white;
   justify-content:center;
   border: 7px solid white;
+  background-size: cover;
 }
 
 .thirdMainPageXs {
@@ -162,6 +196,7 @@
   height:300px ;
   color: white;
   justify-content:center; 
+  background-size: cover;
 }
 
 .thirdMainPageXs p{
@@ -207,13 +242,13 @@
   display: flex;
   flex-direction: row;
   height: 400px;
-  margin-top: 50px;
+  margin-top: 30px;
  
 }
 
 .mainHomeDivFourthPageXs{
   height: 20%;
-  margin-top: 20px;
+ 
 }
 
 .leftDivs{
@@ -245,6 +280,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
+  background-size: cover;
 
 }
 .newsButton_left{
@@ -284,7 +320,7 @@
   flex: 0 0 100%;
   height:100% ;
   justify-content:center;  
-  margin-top: 50px;
+  
 }
 .fifthMainPage {
   flex: 1;
@@ -296,11 +332,11 @@
   flex: 0 0 33%;
   height: 100% ;
   justify-content:center;  
-  margin-top: 50px;
+ 
 }
 .fifthDivMain{
   display: flex;
- 
+  margin-top: 10px;
   justify-content: space-between;
   flex-direction: column;
   height: 100%;
@@ -340,13 +376,14 @@
   border-radius: 100%;
 }
 
-.b{
-  height: 100px;
+
+.servicesYoutubeMainDiv{
+  display: flex;
+  justify-content: end;
+  align-items: center;
 }
 
-
-
-
+iframe{border:none !important}
 
 
 

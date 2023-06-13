@@ -5,9 +5,14 @@ import { Link } from "react-router-dom";
 export const ServicesTop = () => {
   return (
     <div>
-      {" "}
       <div
-        style={{ backgroundImage: `url(${ServicesImage})` }}
+        style={{
+          backgroundImage: `url(${ServicesImage})`,
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+          overflow: "hidden",
+        }}
         className="ServicesTopMain"
       >
         <h1>

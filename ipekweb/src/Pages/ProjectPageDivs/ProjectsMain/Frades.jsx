@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import NavigateNextIcon from "@mui/icons-material/NavigateNext";
 import NavigateBeforeIcon from "@mui/icons-material/NavigateBefore";
-import projectPageTop from "../../../assets/ProjectPageImage/ProjectTop.jpg";
+import projectPageTop from "../../../assets/ProjectPageImage/projecttop.jpeg";
 import ProjectImage2 from "../../../assets/HomePageImages/pipe7.jpeg";
 import ProjectImage3 from "../../../assets/HomePageImages/pipe14.jpeg";
 import ProjectImage13 from "../../../assets/HomePageImages/pipe15.jpeg";
@@ -29,27 +29,7 @@ export const Frades = () => {
 
   return (
     <div>
-      <div
-        style={{
-          backgroundImage: `url(${projectPageTop})`,
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "cover",
-          overflow: "hidden",
-        }}
-        className="ServicesTopMain"
-      >
-        <h1>PROJELER | Ipek Barajı</h1>
-        <div className="Breadcrumb">
-          <Link to="/">
-            <strong>Home Page</strong>
-          </Link>
-          <p>/</p>
-          <Link href="">
-            <strong>Projeler</strong>
-          </Link>
-        </div>
-      </div>
+     <div style={{ marginTop: "30px" }}></div>
       <div
         style={{
           display: "flex",
@@ -126,9 +106,9 @@ export const Frades = () => {
             }}
           >
             Hidroelektrik üretimi için bir baraj inşaatı her zaman büyük
-            karmaşıklık ve talep gerektiren bir iş olmuştur ve Pipemasters,
+            karmaşıklık ve talep gerektiren bir iş olmuştur ve HI FOOD TECH,
             Frades II Barajı'nın yapımında önemli bir rol oynamıştır.
-            Pipemasters, boru tesisatı ve tüm doğal yapıların prefabrikasyonu ve
+            HI FOOD TECH, boru tesisatı ve tüm doğal yapıların prefabrikasyonu ve
             saha montajına ek olarak, büyük parçaların (örneğin su geçirmez
             kapılar) montajını desteklemek için büyük yapıların inşasına da
             katıldı. <br />

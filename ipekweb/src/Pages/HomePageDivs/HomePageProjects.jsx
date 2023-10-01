@@ -112,7 +112,7 @@ export const HomePageProjects = () => {
               <h2>Gıda Atıkları </h2>
             </Link>
             <p className="thirdMainPage_p">
-              PGıda israfı, üretimden dağıtıma ve tüketimdeki israfa kadar ciddi
+              Gıda israfı, üretimden dağıtıma ve tüketimdeki israfa kadar ciddi
               bir gerçektir. Bu tema, FREETILIZER sürecinin sadece çevresel
               etkiyi en aza indirerek, sürdürülebilirliği teşvik etmekle
               kalmayıp aynı zamanda süreci karlı hale getirerek nasıl bir varlık
@@ -173,14 +173,15 @@ export const HomePageProjects = () => {
               to="/projects/ındustryFrades"
               style={{ color: "white", textDecoration: "none" }}
             >
-              <h2> Hı Food Barajı</h2>
+              <h2> Hı Food Tech Barajı</h2>
             </Link>
             <p className="thirdMainPage_p">
               Ingula, 25 yılı aşkın bir süredir Güney Afrika'daki ilk
               hidroelektrik santralidir. Tesis, doğudaki Ladysmith şehri
-              yakınlarında yapım aşamasındadır. HI FOOD'Un bu projedeki görevi,
-              boruların ve tüm doğal yapıların prefabrikasyonu ve yerinde
-              montajı ve ayrıca büyük metal yapıların inşasına katılımdır.i.
+              yakınlarında yapım aşamasındadır. HI FOOD TECH'Un bu projedeki
+              görevi, boruların ve tüm doğal yapıların prefabrikasyonu ve
+              yerinde montajı ve ayrıca büyük metal yapıların inşasına
+              katılımdır.i.
             </p>
           </div>
           <div
@@ -211,7 +212,12 @@ export const HomePageProjects = () => {
             style={{ backgroundImage: `url(${ProjeImage8})` }}
           >
             <h3 className="homeTextContent">MÜHENDİSLİK PROJELERİ</h3>
-            <h3>Plastiğin Evrimi</h3>
+            <Link
+              to="/projects/ındustryFrades"
+              style={{ color: "white", textDecoration: "none" }}
+            >
+              <h2> Plastiğin Evrimi</h2>
+            </Link>
             <p className="thirdMainPage_p">
               Dijital simülasyon ve sanal gerçeklik, teknoloji ve mühendislik
               çalışmalarında prototip oluşturmayı kolaylaştırır ve tasarımda

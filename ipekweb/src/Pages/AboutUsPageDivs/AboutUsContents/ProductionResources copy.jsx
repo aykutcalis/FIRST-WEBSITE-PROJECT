@@ -35,7 +35,7 @@ export const ProductionResources = () => {
           color: "#2CD4E0",
         }}
       >
-        <h2>HI FOOD – Üretim Kaynakları</h2>
+        <h2>HI FOOD TECH – Üretim Kaynakları</h2>
         <p
           className="ProductionResourcess_p"
           style={{

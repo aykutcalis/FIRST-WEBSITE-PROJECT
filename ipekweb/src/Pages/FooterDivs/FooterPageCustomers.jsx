@@ -131,7 +131,7 @@ export const FooterPageCustomers = () => {
               </div>
             </div>
           </div>
-          <div className="scrollableContainer">
+          <div className="scrollableContainer" style={{ alignItems: "center" }}>
             <div className="scrollableContent">
               <TransitionGroup className="logoList">
                 {logos.map((logo, index) => (

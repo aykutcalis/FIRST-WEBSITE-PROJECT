@@ -55,7 +55,7 @@ export const ProjectIndustry = () => {
                     component="div"
                     style={{ color: "#2CD4E0", fontWeight: "700" }}
                   >
-                    Ekmek Otomasyonu
+                    Fırın Otomasyonu
                   </Typography>
                 </CardContent>
               </Link>
@@ -87,7 +87,7 @@ export const ProjectIndustry = () => {
                     component="div"
                     style={{ color: "#2CD4E0", fontWeight: "700" }}
                   >
-                    Hı Food Barajı
+                    Hi Food Tech Barajı
                   </Typography>
                 </CardContent>
               </Link>

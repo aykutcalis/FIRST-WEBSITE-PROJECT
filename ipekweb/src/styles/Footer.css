@@ -112,6 +112,8 @@ align-items: end;
 .logoList {
   display: flex;
   overflow-x: initial !important;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .logoItem-enter {
@@ -192,7 +194,6 @@ ul.list-unstyled li  {
 .FooterSubscribeDivContact{
   display: flex;
   flex-direction: column;
-  
   color: white;
 }
 .FooterSubscribeDivContent{

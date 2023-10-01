@@ -91,7 +91,7 @@ export const IndustrialProject = () => {
           <br></br>
           <br></br> Ara sıra yapılan bakım, faaliyet sektöründen bağımsız
           olarak, esasen müşterinin özel ihtiyaçlarına karşılık gelen düzeltici
-          faaliyetlerle yönetilir. Bu anlamda Pipemasters, organizasyonun her
+          faaliyetlerle yönetilir. Bu anlamda HI FOOD TECH, organizasyonun her
           alanında bizi farklı kılan değerlerle faaliyetlerine yön vermektedir:
           anında müdahale, ekip çalışması, deneyim, sonuçlara odaklanma,
           müşteriye yakınlık ve çalışanlarımızın motivasyonu ve şevki, bunun

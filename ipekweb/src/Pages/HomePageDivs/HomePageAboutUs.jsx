@@ -9,13 +9,12 @@ export const HomePageAboutUs = () => {
     <div>
       <div className={isXs ? "DivMainXs" : "DivMain"}>
         <div>
-          <h1 className="divTitle">HI FOOD HAKKINDA DAHA FAZLA BİLGİ</h1>
+          <h1 className="divTitle">HI FOOD TECH HAKKINDA DAHA FAZLA BİLGİ</h1>
         </div>
         <div className="DivMainText">
           <p>
             Filmimizi izleyin ve herhangi bir projeye dahil olduğumuzda
-            ekiplerimizin sorumluluk duygusunu ve misyonunu takdir edin. HI
-            FOOD, mutlak güveninize layık bir ortak olmak için sürekli büyüyor
+            ekiplerimizin sorumluluk duygusunu ve misyonunu takdir edin. HI FOOD TECH, mutlak güveninize layık bir ortak olmak için sürekli büyüyor
             ve yenilik yapıyor.
           </p>
         </div>

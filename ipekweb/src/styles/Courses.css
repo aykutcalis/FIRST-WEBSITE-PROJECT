@@ -1,0 +1,15 @@
+.CoursesStackActionsDiv{
+    padding-left: 0 !important;
+    margin-top: 10px;
+}
+.ant-tabs-tab-btn{
+    text-decoration: none !important;
+    border-bottom: none !important;
+    font-size: 14px;
+    font-weight: 300 !important;
+    line-height: 1.42857;
+    color: #3f444a;
+}
+.ant-tabs-nav{
+    border-bottom: 1px solid #7f8c97 ;
+}

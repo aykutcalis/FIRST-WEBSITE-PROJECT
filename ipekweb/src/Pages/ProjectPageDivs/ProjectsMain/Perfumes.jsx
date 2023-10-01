@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import NavigateNextIcon from "@mui/icons-material/NavigateNext";
 import NavigateBeforeIcon from "@mui/icons-material/NavigateBefore";
-import projectPageTop from "../../../assets/ProjectPageImage/ProjectTop.jpg";
+import projectPageTop from "../../../assets/ProjectPageImage/projecttop.jpeg";
 import ProjectImage2 from "../../../assets/HomePageImages/pipe2.jpeg";
 import ProjectImage3 from "../../../assets/HomePageImages/pipe3.jpeg";
 import ProjectImage13 from "../../../assets/HomePageImages/pipe4.jpeg";
@@ -29,27 +29,7 @@ export const Perfumes = () => {
 
   return (
     <div>
-      <div
-        style={{
-          backgroundImage: `url(${projectPageTop})`,
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "cover",
-          overflow: "hidden",
-        }}
-        className="ServicesTopMain"
-      >
-        <h1>PROJELER | Parfüm Fabrikası</h1>
-        <div className="Breadcrumb">
-          <Link to="/">
-            <strong>Home Page</strong>
-          </Link>
-          <p>/</p>
-          <Link href="">
-            <strong>Projeler</strong>
-          </Link>
-        </div>
-      </div>
+      <div style={{ marginTop: "30px" }}></div>
       <div
         style={{
           display: "flex",
@@ -124,7 +104,7 @@ export const Perfumes = () => {
               fontWeight: "500",
             }}
           >
-            Pipemasters yakın zamanda NYC - ABD'de kozmetik (koku) alanında bir
+            HI FOOD TECH yakın zamanda NYC - ABD'de kozmetik (koku) alanında bir
             üretim tesisinin inşasına katıldı. Ön üretimden şantiye montajına
             kadar, 26 ila 48 mm çapında 26.000 metreden fazla boru kullanıldı.
             Borulamanın yanı sıra boruları tamamlayan tüm yapıların yapımında ve

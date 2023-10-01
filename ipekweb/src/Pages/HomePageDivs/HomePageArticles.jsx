@@ -14,14 +14,14 @@ export const HomePageArticles = () => {
       <div>
         <div className={isXs ? "DivMainXs" : "DivMain"}>
           <div>
-            <h1 className="divTitle">MAKALELER</h1>
+            <h1 className="divTitle">HAKKIMIZDA</h1>
           </div>
           <div className="DivMainText">
-            <p>En son haberleri HI FOOD kalitesiyle takip edin.</p>
+            <p>Sektörün en önde gelen firmalarından biriyle tanışın.</p>
           </div>
           <div className="divSecondTitle">
             <div>
-              <h1 className="divSecondTitle_h">SON MAKALELER</h1>
+              <h1 className="divSecondTitle_h">HI FOOD TECH</h1>
             </div>
           </div>
         </div>
@@ -36,7 +36,7 @@ export const HomePageArticles = () => {
               style={{ backgroundImage: `url(${News_1})` }}
             >
               <button className="newsButton_left">
-                HI FOOD Akademi: Bir Formasyona Yatırım Yapmak İçin 5 Motif
+                HI FOOD TECH Akademi: Bir Formasyona Yatırım Yapmak İçin 5 Motif
               </button>
             </Grid>
           </Grid>
@@ -48,7 +48,7 @@ export const HomePageArticles = () => {
               style={{ backgroundImage: `url(${News_2})` }}
             >
               <button className="newsButton">
-                Baraj: Ingula, Başka Bir HI FOOD Uluslararası Projesi!
+                Baraj: Ingula, Başka Bir HI FOOD TECH Uluslararası Projesi!
               </button>
             </Grid>
             <Grid
@@ -68,7 +68,8 @@ export const HomePageArticles = () => {
               style={{ backgroundImage: `url(${News_4})` }}
             >
               <button className="newsButton">
-                Rafineri NATEMA: HI FOOD, Madagaskar'da bir projeye katıldı!
+                Rafineri NATEMA: HI FOOD TECH, Madagaskar'da bir projeye
+                katıldı!
               </button>
             </Grid>
             <Grid

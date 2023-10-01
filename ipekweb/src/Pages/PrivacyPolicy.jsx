@@ -9,64 +9,57 @@ export const PrivacyPolicy = () => {
           marginBottom: "20px",
           fontSize: "13px",
           fontWeight: "500",
-          color: "#7f8c97",
+          color: "#7f8c97"
         }}
       >
         <h2 style={{ textAlign: "center" }}>Privacy Policy – GDPR</h2>
         <Grid container>
           <Grid>
-            <h4>AMAÇ</h4> HI FOOD, Welding and Industrial Maintenance Services,
-            Lda (bundan sonra HI FOOD olarak anılacaktır), Avrupa Parlamentosu
-            ve Konseyinin (AB) 2016/679 sayılı Yönetmeliği uyarınca kendisine
-            sağlanan kişisel verilerin işlenmesinden sorumlu kuruluş olarak
-            Genel Veri Koruma Yönetmeliği (GDPR) ve diğer geçerli ulusal ve
-            topluluk mevzuatı olarak bilinen 27 Nisan 2016 tarihli, bu belgede
-            yayınlanan ve verileri nasıl topladığını, sakladığını ve ele
-            aldığını belirleyen Kişisel Verilerin Gizlilik Politikasını
-            benimsemiştir. Kişisel Veriler, gizliliğinin ve güvenliğinin
-            sağlanması. <br />
+            <h4>AMAÇ</h4> Bu gizlilik sözleşmesi, HI FOOD TECH firmasının
+            ("Şirket") www.hifoodtech.com.tr ("Web Sitesi") üzerinden sağlanan
+            hizmetlerin kullanımıyla ilgili olarak kullanıcıların
+            ("Kullanıcılar") kişisel verilerinin toplanması, işlenmesi,
+            saklanması ve korunması ile ilgili Şirket'in uyguladığı politikaları
+            ve ilke ve esasları düzenlemektedir. . <br />
             <br />
-            Bu Kişisel Verilerin Gizliliği Politikası, HI FOOD tarafından
+            Bu Kişisel Verilerin Gizliliği Politikası, HI FOOD TECH tarafından
             çeşitli formlar ve kanallar aracılığıyla toplanan, işlenen ve
             saklanan tüm kişisel bilgiler için geçerlidir. <br />
             <br /> Hizmetin kullanıcısı (bundan sonra mal sahibi olarak
             anılacaktır), "Kişisel Veriler" olarak adlandırılan kişisel verileri
             gerektiren alanlara erişirken, bu Kişisel Verilerin Gizlilik
             Politikasının ve Pipe Masters'ın kullanım ve tedarik Hüküm ve
-            Koşullarının farkında olmalıdır. Hizmetler.
+            Koşullarının farkında olmalıdır.
           </Grid>
         </Grid>
         <Grid container>
           <Grid>
             <h4>VERİ KORUMA VE GİZLİLİK İLKELERİ</h4>
-            HI FOOD tarafından gerçekleştirilen arıtma operasyonları, süreçlerin
-            düzgün işlemesini, müşterilerin ve ortakların güvenini ve ayrıca
-            kamu imajını garanti eden temel veri koruma ve gizlilik ilkelerine
-            uygundur: yasallık, tarafsızlık ve şeffaflık, sınırlandırma amaç,
-            veri minimizasyonu, doğruluk, koruma sınırlaması, bütünlük, gizlilik
-            ve iletim.
+            HI FOOD TECH tarafından gerçekleştirilen arıtma operasyonları,
+            süreçlerin düzgün işlemesini, müşterilerin ve ortakların güvenini ve
+            ayrıca kamu imajını garanti eden temel veri koruma ve gizlilik
+            ilkelerine uygundur: yasallık, tarafsızlık ve şeffaflık,
+            sınırlandırma amaç, veri minimizasyonu, doğruluk, koruma
+            sınırlaması, bütünlük, gizlilik ve iletim.
           </Grid>
         </Grid>
         <Grid container>
           <Grid>
             <h4>VERİ İŞLEMENİN AMACI</h4>
-            Sahibi tarafından HI FOOD ile farklı etkileşim yollarında iletilen
-            Kişisel Veriler, aşağıdaki amaçlardan biri veya birkaçına
+            Sahibi tarafından HI FOOD TECH ile farklı etkileşim yollarında
+            iletilen Kişisel Veriler, aşağıdaki amaçlardan biri veya birkaçına
             yöneliktir:
             <br /> Bilgi, öneri ve şikayet taleplerini ele almak ve yanıtlamak;
             <br />
             {""} Spontan başvuruları ve işe alım prosedürlerini alın;
-            <br /> HI FOOD.pt (çerezler) sitesinde gezinme deneyimini
-            iyileştirin;
+            <br /> HI FOOD TECH.pt (çerezler) sitesinde gezinme deneyimini
+            iyileştirmek;
             <br />
-            Haber bültenleri ve e-posta Pazarlama göndererek HI FOOD ürünleri ve
-            promosyonları hakkında bilgi sağlayın;
+            Haber bültenleri ve e-posta Pazarlama göndererek HI FOOD TECH
+            ürünleri ve promosyonları hakkında bilgi sağlamak;
             <br /> Müşteri memnuniyeti anketleri yapmak;
             <br /> Hizmet değerlendirme anketlerini yanıtlayın;
-            <br /> Müşteri ile ilişkiyi yönetin (örneğin, özel hizmetler);
-            <br /> Hizmet tekliflerinin iyileştirilmesi için müşterilerin
-            segmentasyonu. (1 ve 2 numaralı maddelerde belirtilen amaçlar için
-            RGPD Madde 6 (1) b) uyarınca Hak Sahibinin onayı aranmaz.
+            <br /> Müşteri ile ilişkili yönetim (örneğin, özel hizmetler);
           </Grid>
         </Grid>
         <Grid container>
@@ -125,7 +118,7 @@ export const PrivacyPolicy = () => {
           <Grid>
             <h4>ONAY</h4>
             Sahibi tarafından iletilen Kişisel Veriler, verilme amaçlarına göre
-            açık onayınızı gerektirebilir. Bu durumlarda, onay, HI FOOD ile
+            açık onayınızı gerektirebilir. Bu durumlarda, onay, HI FOOD TECH ile
             farklı etkileşim araçlarının her birinde, sahibi tarafından
             ücretsiz, spesifik, bilgilendirilmiş ve açık bir şekilde verilir.
             Her zaman veri sahibi, ilgili muameleye ilişkin onaylarından
@@ -141,10 +134,10 @@ export const PrivacyPolicy = () => {
         <Grid container>
           <Grid>
             <h4>KORUMA VE GÜVENLİK</h4>
-            HI FOOD, sahiplerinin kişisel verilerinin güvenliğini, bütünlüğünü
-            ve mahremiyetini garanti eden, her bir işlemin riskine uygun ve
-            Avrupa Birliği'ndeki yerleşik uygulamalarla tutarlı idari, teknik,
-            fiziksel ve organizasyonel önlemleri almayı taahhüt eder. Bu
+            HI FOOD TECH, sahiplerinin kişisel verilerinin güvenliğini,
+            bütünlüğünü ve mahremiyetini garanti eden, her bir işlemin riskine
+            uygun ve Avrupa Birliği'ndeki yerleşik uygulamalarla tutarlı idari,
+            teknik, fiziksel ve organizasyonel önlemleri almayı taahhüt eder. Bu
             önlemler, kişisel verilerin ifşasına, kötüye kullanımına, yetkisiz
             erişime veya kayba, değiştirilmeye veya yok edilmeye ve diğer her
             türlü yasa dışı muameleye karşı korunması için geçerlidir. Kişisel
@@ -153,21 +146,19 @@ export const PrivacyPolicy = () => {
             ve protokollerini almakla yükümlüdür. Sahibi, sağladığı kişisel
             verilerin gerçek ve eksiksiz olduğunu garanti eder ve değişiklikleri
             bildirmeyi taahhüt eder. Kayıt formlarında yanlış, yanlış veya eksik
-            bilgi verilmesi nedeniyle HI FOOD'a veya herhangi bir üçüncü tarafa
-            verilecek herhangi bir zarar, tamamen sunan veya sunan kişinin
-            sorumluluğunda olacaktır. .
+            bilgi verilmesi nedeniyle HI FOOD TECH'a veya herhangi bir üçüncü
+            tarafa verilecek herhangi bir zarar, tamamen sunan veya sunan
+            kişinin sorumluluğunda olacaktır. .
           </Grid>
         </Grid>
         <Grid container>
           <Grid>
             <h4>SAHİPLERİNİN HAKLARI</h4>
-            Veri koruma mevzuatı, sahibine, verilerinin yönlendirildiği amaçlar
-            ve işlemler hakkında bilgi edinme, ayrıca verilerine erişme,
-            düzeltme, silme, işlemeyi sınırlama ve ayrıca verilerinin
-            taşınabilirliği ve buna karşı çıkma hakkı verir. otomatik bireysel
-            kararlar. Yukarıda açıklanan hakların kullanılması için, hamil, Pipe
-            Masters'ın Veri Koruma Görevlisi (protecaodados@pipemasters.pt) ile
-            iletişime geçmelidir.
+            Kullanıcılar, kişisel verilerinin doğruluğunu kontrol etme, veri
+            işleme amacına ve hukuka uygunluğuna ilişkin bilgilere erişme,
+            verilerinin silinmesini veya düzeltilmesini talep etme gibi sahip
+            oldukları hakları kullanabilirler. Bu hakları kullanmak için Şirket
+            ile iletişime geçebilirler.
           </Grid>
         </Grid>
         <Grid container>
@@ -182,32 +173,30 @@ export const PrivacyPolicy = () => {
         <Grid container>
           <Grid>
             <h4>İLETİŞİM</h4>
-            Ürün sahibi, HI FOOD tarafından Genel Veri Koruma Yönetmeliğinin
-            uygulanmasıyla ilgili soruları için www.pipemasters.pt sitesi
-            aracılığıyla, protecaodadodos@pipemasters.pt e-posta adresinden veya
-            şu adrese posta yoluyla bizimle iletişime geçebilir:
+            Ürün sahibi, HI FOOD TECH tarafından Genel Veri Koruma
+            Yönetmeliğinin uygulanmasıyla ilgili soruları için
+            www.hifoodtech.com sitesi aracılığıyla, hifoodtech@alan.com e-posta
+            adresinden veya şu adrese posta yoluyla bizimle iletişime geçebilir:
           </Grid>
         </Grid>
         <Grid container>
           <Grid>
-            <h4>DATA PROTECTION AND PRIVACY PRINCIPLES</h4>
-            The treatment operations carried out by HI FOOD comply with the
-            fundamental principles of data protection and privacy, which
-            guarantee the proper functioning of the processes, the trust of
-            clients and partners, as well as the public image: lawfulness,
-            impartiality and transparency, limitation of purpose, data
-            minimization, accuracy, conservation limitation, integrity,
-            confidentiality and transmission. HI FOOD Lda Rua Manuel Dias, Nº
-            396 Fração G POSTBOX 129 4495-129 Varzim Adresi
+            <h4>VERİ KORUMA VE GİZLİLİK İLKELERİ</h4>
+            HI FOOD TECH tarafından yürütülen arıtma işlemleri, veri koruma ve
+            mahremiyetin temel ilkeleri, süreçlerin düzgün işleyişini, güvenini
+            garanti eder müşteriler ve ortaklar ile kamu imajı: yasallık,
+            tarafsızlık ve şeffaflık, amaç sınırlaması, veri minimizasyon,
+            doğruluk, koruma sınırlaması, bütünlük, gizlilik ve iletim. HI FOOD
+            TECH İstanbul/Zeytinburnu Maltepe Mah. Davutpaşa cad no:22/66 Adresi
           </Grid>
         </Grid>
         <Grid container>
           <Grid>
             <h4>GİZLİLİK POLİTİKASI DEĞİŞİKLİKLERİ</h4>
-            Belgenin yeterliliğini garanti etmek için, HI FOOD herhangi bir
+            Belgenin yeterliliğini garanti etmek için, HI FOOD TECH herhangi bir
             zamanda bu Gizlilik Politikasını önceden haber vermeksizin ve derhal
             geçerli olacak şekilde değiştirebilir. Bu Gizlilik Politikası en son
-            22 Mayıs 2018 tarihinde güncellenmiştir.
+            19 Haziran 2023 tarihinde güncellenmiştir.
           </Grid>
         </Grid>
       </Container>

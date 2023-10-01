@@ -3,12 +3,11 @@ import { Routes, Route, Outlet } from "react-router-dom";
 import { Navbar } from "./components/Navbar";
 import { Footer } from "./components/Footer";
 import { Home } from "./components/Home";
-import { Blog } from "./components/Blog";
 import { About } from "./components/About";
 import { Contact } from "./components/Contact";
 import { Services } from "./components/Services";
 import { Project } from "./components/Project";
-import { Courses } from "./components/Courses";
+import { Production } from "./components/Production";
 import { EngineeringProject } from "./Pages/Services/EngineeringProject";
 import { IndustrialProject } from "./Pages/Services/IndustrialProject";
 import { EnvironmentProject } from "./Pages/Services/EnvironmentProject";
@@ -19,13 +18,17 @@ import { IndustryFrades } from "./Pages/ProjectPageDivs/ProjectsMain/IndustryFra
 import { Extraction } from "./Pages/ProjectPageDivs/ProjectsMain/Extraction";
 import { Food } from "./Pages/ProjectPageDivs/ProjectsMain/Food";
 import { PrivacyPolicy } from "./Pages/PrivacyPolicy";
+import ScrollToTop from "./components/ScrollToTop";
+import { WeldingTrainingCourses_1 } from "./Pages/ProductionPageDİvs/Production/WeldingTrainingCourses_1";
+import { WrongPath } from "./components/WrongPath";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
+      <ScrollToTop />
       <Routes>
-        <Route path="/menu" exact element={<Blog />} />
+        <Route path="/" exact element={<Home />} />
         <Route path="/about" exact element={<About />} />
         <Route path="/contact" exact element={<Contact />} />
         <Route path="/services" exact element={<Services />} />
@@ -45,8 +48,8 @@ function App() {
           element={<EnvironmentProject />}
         />
         <Route path="/projects" exact element={<Project />} />
-        <Route path="/courses" exact element={<Courses />} />
-        <Route path="/" exact element={<Home />} />
+        <Route path="/production" exact element={<Production />} />
+
         <Route path="/projects/perfumes" exact element={<Perfumes />} />
         <Route path="/projects/frades" exact element={<Frades />} />
         <Route path="/projects/otomation" exact element={<Otomation />} />
@@ -58,6 +61,12 @@ function App() {
         <Route path="/projects/extraction" exact element={<Extraction />} />
         <Route path="/projects/food" exact element={<Food />} />
         <Route path="/privacyPolicy" exact element={<PrivacyPolicy />} />
+        <Route
+          path="/production/weldingTrainingCourses_1"
+          exact
+          element={<WeldingTrainingCourses_1 />}
+        />
+        <Route path="*" exact element={<WrongPath />} />
       </Routes>
 
       <Footer />

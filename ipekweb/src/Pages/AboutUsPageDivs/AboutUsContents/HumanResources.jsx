@@ -35,7 +35,7 @@ export const HumanResources = () => {
           color: "#2CD4E0",
         }}
       >
-        <h2>HI FOOD – Uzmanlaşmış İnsan Kaynakları</h2>
+        <h2>HI FOOD TECH – Uzmanlaşmış İnsan Kaynakları</h2>
         <p
           className="engineeringProjectMainDiv_p"
           style={{
@@ -74,7 +74,7 @@ export const HumanResources = () => {
           Proses 141 alüminyum alaşımlarında. <br />
           <br />
           Operasyonel düzeyde, özel olarak eğitilmiş işbirlikçilere sahip
-          olmanın avantajları, HI FOOD'ın üretkenliği ve karlılığı artırmasına,
+          olmanın avantajları, HI FOOD TECH'ın üretkenliği ve karlılığı artırmasına,
           iş verimliliğini artırarak maliyetleri düşürmesine ve müşterilerimize
           sağlanan iş ile kaliteyi ve memnuniyeti artırmalarına olanak tanıyan
           bir sermaye kazancı olarak bizi tanıtmasına olanak tanır. .

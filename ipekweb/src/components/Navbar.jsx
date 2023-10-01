@@ -91,7 +91,7 @@ export const Navbar = () => {
                   to="/services"
                   activeClassName="active"
                 >
-                  SERVİSLER
+                  HİZMETLER
                 </NavLink>
               </MenuItem>
               <MenuItem onClick={handleClose}>
@@ -100,23 +100,18 @@ export const Navbar = () => {
                 </NavLink>
               </MenuItem>
               <MenuItem onClick={handleClose}>
+                <NavLink className="listItem" to="/production">
+                  ÜRETİM
+                </NavLink>
+              </MenuItem>
+              <MenuItem onClick={handleClose}>
                 <NavLink className="listItem" to="/about">
                   HAKKIMIZDA
                 </NavLink>
               </MenuItem>
               <MenuItem onClick={handleClose}>
-                <NavLink className="listItem" to="/courses">
-                  KURSLAR
-                </NavLink>
-              </MenuItem>
-              <MenuItem onClick={handleClose}>
                 <NavLink className="listItem" to="/contact">
                   İLETİŞİM
-                </NavLink>
-              </MenuItem>
-              <MenuItem onClick={handleClose}>
-                <NavLink className="listItem" to="/menu">
-                  BLOG
                 </NavLink>
               </MenuItem>
             </Menu>
@@ -140,22 +135,19 @@ export const Navbar = () => {
 
               <div className="">
                 <NavLink to="/services" activeClassName="active">
-                  SERVİSLER
+                  HİZMETLER
                 </NavLink>
                 <NavLink to="/projects" activeClassName="active">
                   PROJELER
                 </NavLink>
+                <NavLink to="/production" activeClassName="active">
+                  ÜRETİM
+                </NavLink>
                 <NavLink to="/about" activeClassName="active">
                   HAKKIMIZDA
                 </NavLink>
-                <NavLink to="/courses" activeClassName="active">
-                  KURSLAR
-                </NavLink>
                 <NavLink to="/contact" activeClassName="active">
                   İLETİŞİM
-                </NavLink>
-                <NavLink to="/menu" activeClassName="active">
-                  BLOG
                 </NavLink>
               </div>
             </div>

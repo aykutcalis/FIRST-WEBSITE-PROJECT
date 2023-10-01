@@ -30,7 +30,7 @@ export const ServicesYoutube = () => {
             }}
           >
             <h1 style={{ color: "white" }}>
-              Ipek Mühendislik - Mühendislik, Endüstriyel Bakım ve Çevre
+            HI FOOD TECH TECH - Mühendislik, Endüstriyel Bakım ve Çevre
               Projeleri
             </h1>
             <p style={{ color: "white" }}>
@@ -72,7 +72,7 @@ export const ServicesYoutube = () => {
             }}
           >
             <h1 style={{ color: "white" }}>
-              HI FOOD - Mühendislik, Endüstriyel Bakım ve Çevre Projeleri
+              HI FOOD TECH - Mühendislik, Endüstriyel Bakım ve Çevre Projeleri
             </h1>
             <p style={{ color: "white" }}>
               Filmimizi izleyin ve herhangi bir projeye dahil olduğumuzda

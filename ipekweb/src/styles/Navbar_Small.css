@@ -12,7 +12,7 @@
     height: 50px;
   }
   .nav_small a {
-    color:#67696c;
+    color:#67696c; 
     text-decoration: none;
     margin-right: 20px;
     font-weight: 800;
@@ -27,6 +27,9 @@
     
   transition: color 0.2s, border-bottom-color 0.2s;
 
+  }
+  .nav_small a:hover{
+    padding-bottom: 3px;
   }
   .nav_small .searchIcon{
         display: flex;

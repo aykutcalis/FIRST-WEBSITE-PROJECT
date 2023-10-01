@@ -35,7 +35,7 @@ export const ProductionResources = () => {
           color: "#2CD4E0",
         }}
       >
-        <h2>HI FOOD – Üretim Kaynakları</h2>
+        <h2>HI FOOD TECH – Üretim Kaynakları</h2>
         <p
           className="ProductionResourcess_p"
           style={{
@@ -45,10 +45,10 @@ export const ProductionResources = () => {
         >
           Ekonomide, üretim kaynakları mal ve hizmet üretiminde kilit
           unsurlardır.
-          <br /> PIPEMASTERS kurulduğundan bu yana tek bir yön izliyor:
+          <br /> HI FOOD TECH kurulduğundan bu yana tek bir yön izliyor:
           genişleme.
           <br /> Ürünlerimizin performans kalitesi ancak sahip olduğumuz geniş
-          ekipman çeşitliliği ile mümkündür. Günümüzde PIPEMASTERS, ileri
+          ekipman çeşitliliği ile mümkündür. Günümüzde HI FOOD TECH, ileri
           teknolojiye sahip bir şirkettir ve yüksek kalite gereksinimleri olan
           projelerin doğru bir şekilde uygulanmasına izin veren gelişmiş
           araçlara sahip olmaktan gurur duymaktadır.

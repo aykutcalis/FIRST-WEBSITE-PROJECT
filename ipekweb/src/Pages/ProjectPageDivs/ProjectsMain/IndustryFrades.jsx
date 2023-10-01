@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import NavigateNextIcon from "@mui/icons-material/NavigateNext";
 import NavigateBeforeIcon from "@mui/icons-material/NavigateBefore";
-import projectPageTop from "../../../assets/ProjectPageImage/ProjectTop.jpg";
+import projectPageTop from "../../../assets/ProjectPageImage/projecttop.jpeg";
 import ProjectImage2 from "../../../assets/HomePageImages/pipe18.jpeg";
 import ProjectImage3 from "../../../assets/HomePageImages/pipe16.jpeg";
 import ProjectImage13 from "../../../assets/HomePageImages/pipe17.jpeg";
@@ -29,27 +29,7 @@ export const IndustryFrades = () => {
 
   return (
     <div>
-      <div
-        style={{
-          backgroundImage: `url(${projectPageTop})`,
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "cover",
-          overflow: "hidden",
-        }}
-        className="ServicesTopMain"
-      >
-        <h1>PROJELER | HI FOOD Barajı</h1>
-        <div className="Breadcrumb">
-          <Link to="/">
-            <strong>Home Page</strong>
-          </Link>
-          <p>/</p>
-          <Link href="">
-            <strong>Projeler</strong>
-          </Link>
-        </div>
-      </div>
+      <div style={{ marginTop: "30px" }}></div>
       <div
         style={{
           display: "flex",
@@ -117,7 +97,7 @@ export const IndustryFrades = () => {
             padding: isXs ? "0  40px 0 50px" : "0 40px 50px 50px",
           }}
         >
-          <h3>HI FOOD Barajı</h3>
+          <h3>HI FOOD TECH Barajı</h3>
           <p
             className="engineeringProjectMainDiv_p"
             style={{
@@ -130,7 +110,7 @@ export const IndustryFrades = () => {
             <br />
             <br />
             <br /> Tesis, doğudaki Ladysmith şehri yakınlarında yapım
-            aşamasındadır. HI FOOD'Un bu projedeki görevi, boruların ve tüm
+            aşamasındadır. HI FOOD TECH'in bu projedeki görevi, boruların ve tüm
             doğal yapıların prefabrikasyonu ve yerinde montajı ve ayrıca büyük
             metal yapıların inşasına katılımdır.i.
           </p>

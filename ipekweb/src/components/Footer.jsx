@@ -13,7 +13,7 @@ export const Footer = () => {
       <FooterMap />
       <FooterMenuDiv />
       <div className="text-center p-3" style={{ backgroundColor: "white)" }}>
-        © 2023 HI FOOD - Tüm Hakları Saklıdır.
+        © 2023 HI FOOD TECH - Tüm Hakları Saklıdır.
       </div>
     </div>
   );

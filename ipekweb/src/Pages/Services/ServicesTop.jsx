@@ -1,31 +1,33 @@
 import React from "react";
 import ServicesImage from "../../assets/ServicesImages/servis.jpg";
 import { Link } from "react-router-dom";
+import { useMediaQuery } from "@mui/material";
 
 export const ServicesTop = () => {
+  const isXs = useMediaQuery("(max-width: 599.95px)");
+  const h2Style = {
+    marginBottom: "10px",
+    width: "95%",
+  };
   return (
     <div>
       <div
         style={{
           backgroundImage: `url(${ServicesImage})`,
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "cover",
-          overflow: "hidden",
+          padding: isXs ? "0 10px" : "0 50px",
         }}
-        className="ServicesTopMain"
+        className="TopMain"
       >
-        <h1>
-          HİZMETLER | Mühendislik Projeleri, Endüstriyel Bakım Hizmetleri ve
-          Çevre Projeleri - Freetilizer
-        </h1>
+        <h2 style={h2Style}>
+          HİZMETLER 
+        </h2>
         <div className="Breadcrumb">
           <Link to="/">
             <strong>Home Page</strong>
           </Link>
           <p>/</p>
           <Link href="">
-            <strong>Servisler</strong>
+            <strong>Hizmetler</strong>
           </Link>
         </div>
       </div>

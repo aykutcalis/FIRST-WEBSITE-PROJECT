@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import NavigateNextIcon from "@mui/icons-material/NavigateNext";
 import NavigateBeforeIcon from "@mui/icons-material/NavigateBefore";
-import projectPageTop from "../../../assets/ProjectPageImage/ProjectTop.jpg";
+import projectPageTop from "../../../assets/ProjectPageImage/projecttop.jpeg";
 import ProjectImage2 from "../../../assets/HomePageImages/pipe8.jpeg";
 import ProjectImage3 from "../../../assets/HomePageImages/pipe10.jpeg";
 import ProjectImage13 from "../../../assets/HomePageImages/pipe11.jpeg";
@@ -29,27 +29,7 @@ export const Otomation = () => {
 
   return (
     <div>
-      <div
-        style={{
-          backgroundImage: `url(${projectPageTop})`,
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "cover",
-          overflow: "hidden",
-        }}
-        className="ServicesTopMain"
-      >
-        <h1>PROJELER | Fırın Otomasyonu</h1>
-        <div className="Breadcrumb">
-          <Link to="/">
-            <strong>Home Page</strong>
-          </Link>
-          <p>/</p>
-          <Link href="">
-            <strong>Projeler</strong>
-          </Link>
-        </div>
-      </div>
+      <div style={{ marginTop: "30px" }}></div>
       <div
         style={{
           display: "flex",
@@ -169,7 +149,7 @@ export const Otomation = () => {
             >
               Kategori:
               <span style={{ fontSize: "13px", fontWeight: "500" }}>
-              Uzmanlaşmış Dış Kaynak Kullanımı
+                Uzmanlaşmış Dış Kaynak Kullanımı
               </span>
             </p>
             <p

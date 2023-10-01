@@ -83,7 +83,7 @@ export const EngineeringProject = () => {
             fontWeight: "500",
           }}
         >
-          HI FOOD diğer faaliyet alanlarının yanı sıra ön imalat ve endüstriyel
+          HI FOOD TECH diğer faaliyet alanlarının yanı sıra ön imalat ve endüstriyel
           montaj alanlarında öne çıkıyor. Genel planları / yerleşimleri,
           izometrik planları, PID veya SKIDS prensibini ve çalışma şemalarını
           yorumlayarak, her türlü akışkan ve çeşitli faaliyet sektörleri için
@@ -91,7 +91,7 @@ export const EngineeringProject = () => {
           rafları, köprüler veya destekler gibi metal yapıların ve diğer
           tamamlayıcı yapıların inşası ve montajı da Ipek Muhendislik'ın hem
           üretim araçları hem de ekibini oluşturan insan kaynakları açısından
-          uygun olduğu ve öne çıktığı bir faaliyet sektörüdür. . HI FOOD, farklı
+          uygun olduğu ve öne çıktığı bir faaliyet sektörüdür. . HI FOOD TECH, farklı
           müdahale alanlarını kapsamak için gıda pompaları veya parlatılmış
           bitirme gibi hem parlak hem de fırçalanmış parçaların dönüştürülmesi
           ve bitirilmesinde de farklılık gösterir. Çeşitli malzeme ve yüzeylerde

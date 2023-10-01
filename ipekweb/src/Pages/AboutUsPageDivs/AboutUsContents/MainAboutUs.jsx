@@ -35,7 +35,7 @@ export const MainAboutUs = () => {
           color: "#2CD4E0",
         }}
       >
-        <h2>HI FOOD – Endüstriyel Boru Tesisatlarında uzmanız</h2>
+        <h2>HI FOOD TECH – Endüstriyel Boru Tesisatlarında uzmanız</h2>
         <p
           className="engineeringProjectMainDiv_p"
           style={{
@@ -43,20 +43,20 @@ export const MainAboutUs = () => {
             fontWeight: "500",
           }}
         >
-          2003 yılında kurulan HI FOOD, modern uygulama süreçleri ve yenilikçi
+          2003 yılında kurulan HI FOOD TECH, modern uygulama süreçleri ve yenilikçi
           teknolojiler aracılığıyla metal yapıların, boruların ve endüstriyel
           ekipmanların imalatına ve montajına adanmış genç bir şirkettir.
           <br />
           <br />
           <br /> Genç olmamıza rağmen işimizi her zaman kalite ve profesyonellik
           ile yapıyor ve müşterilerimizin her zaman yanındayız. Bu sebeplerden
-          dolayı HI FOOD'ı seçmek, kaliteli hizmet ve iyi yapılmış bir iş
+          dolayı HI FOOD TECH'ı seçmek, kaliteli hizmet ve iyi yapılmış bir iş
           garantisi anlamına gelir. <br />
           <br />
           <br />
           Ekibimiz, Portekiz'de ve yurtdışında gerçekleştirilen projeler
           sayesinde, alanında geniş bir deneyime sahip, uygun şekilde
-          sertifikalandırılmış ve garantilidir. Bugünlerde, HI FOOD, sürekli
+          sertifikalandırılmış ve garantilidir. Bugünlerde, HI FOOD TECH, sürekli
           olarak çalışmalarımızı yansıtan önemli müşterilerin çeşitli tavsiye
           mektupları ve destekleyici beyanlarında belirtildiği gibi, Portekiz ve
           küresel endüstri pazarında bir kıyaslama şirketidir.

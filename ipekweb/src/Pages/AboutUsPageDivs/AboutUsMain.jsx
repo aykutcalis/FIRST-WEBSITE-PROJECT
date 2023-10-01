@@ -6,7 +6,6 @@ import { Testimonials } from "./AboutUsContents/Testimonials";
 import { HumanResources } from "./AboutUsContents/HumanResources";
 import { ProductionResources } from "./AboutUsContents/ProductionResources";
 import { Certification } from "./AboutUsContents/Certification";
-import { Recrietment } from "./AboutUsContents/Recrietment";
 
 export const AboutUsMain = () => {
   const tabItems = [
@@ -14,8 +13,7 @@ export const AboutUsMain = () => {
     { id: "2", label: "Görüşler ", component: <Testimonials /> },
     { id: "3", label: "İnsan Kaynakları", component: <HumanResources /> },
     { id: "4", label: "Üretim Kaynakları", component: <ProductionResources /> },
-    { id: "5", label: "Sertifikasyon", component: <Certification/> },
-    { id: "6", label: "İşe Alım", component: <Recrietment /> },
+    { id: "5", label: "Sertifikasyon", component: <Certification /> },
   ];
   const isXs = useMediaQuery("(max-width: 599.95px)");
 

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import NavigateNextIcon from "@mui/icons-material/NavigateNext";
 import NavigateBeforeIcon from "@mui/icons-material/NavigateBefore";
-import projectPageTop from "../../../assets/ProjectPageImage/ProjectTop.jpg";
+import projectPageTop from "../../../assets/ProjectPageImage/projecttop.jpeg";
 import ProjectImage2 from "../../../assets/HomePageImages/pipe9.jpeg";
 import ProjectImage3 from "../../../assets/HomePageImages/pipe12.jpeg";
 import ProjectImage13 from "../../../assets/HomePageImages/pipe13.jpeg";
@@ -29,27 +29,7 @@ export const Food = () => {
 
   return (
     <div>
-      <div
-        style={{
-          backgroundImage: `url(${projectPageTop})`,
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "cover",
-          overflow: "hidden",
-        }}
-        className="ServicesTopMain"
-      >
-        <h1>PROJELER | Gıda Atıkları - Değerlendirilmesi İçin Çözüm</h1>
-        <div className="Breadcrumb">
-          <Link to="/">
-            <strong>Home Page</strong>
-          </Link>
-          <p>/</p>
-          <Link href="">
-            <strong>Projeler</strong>
-          </Link>
-        </div>
-      </div>
+      <div style={{ marginTop: "30px" }}></div>
       <div
         style={{
           display: "flex",
@@ -125,19 +105,20 @@ export const Food = () => {
               fontWeight: "500",
             }}
           >
-            PGıda israfı, üretimden dağıtıma ve tüketimdeki israfa kadar ciddi
+            Gıda israfı, üretimden dağıtıma ve tüketimdeki israfa kadar ciddi
             bir gerçektir. Bu tema, FREETILIZER sürecinin sadece çevresel etkiyi
             en aza indirerek, sürdürülebilirliği teşvik etmekle kalmayıp aynı
             zamanda süreci karlı hale getirerek nasıl bir varlık olabileceğini
-            keşfetmemize yol açtı.<br/> Bu proje, enzimlerin uygulama kapsamını ve bu
-            tür yan ürünlerdeki etkilerini anlamayı mümkün kıldı.<br/> Sonuç olarak
-            proses, termokimyasal değişken kontrollü bir reaktörde
-            gerçekleştirilir, bu da enzimatik kompleksin hareketini artırmayı
-            mümkün kılar, arıtma ve geri kazanım sürecinin 24 saatlik döngülerde
-            gerçekleşmesini sağlar, böylece zamandan tasarruf garanti edilir. ve
-            alan, yan ürünlerin yönetimi ile maliyetlerin ortadan kaldırılması
-            ve aynı zamanda enerji verimli bir süreçte organik gübreler ve
-            hayvan yemi için bazların üretimi yoluyla değer üretimi.
+            keşfetmemize yol açtı.
+            <br /> Bu proje, enzimlerin uygulama kapsamını ve bu tür yan
+            ürünlerdeki etkilerini anlamayı mümkün kıldı.
+            <br /> Sonuç olarak proses, termokimyasal değişken kontrollü bir
+            reaktörde gerçekleştirilir, bu da enzimatik kompleksin hareketini
+            artırmayı mümkün kılar, arıtma ve geri kazanım sürecinin 24 saatlik
+            döngülerde gerçekleşmesini sağlar, böylece zamandan tasarruf garanti
+            edilir. ve alan, yan ürünlerin yönetimi ile maliyetlerin ortadan
+            kaldırılması ve aynı zamanda enerji verimli bir süreçte organik
+            gübreler ve hayvan yemi için bazların üretimi yoluyla değer üretimi.
           </p>
         </div>
         <div style={{ marginLeft: "25px", marginBottom: isXs ? "25px" : "" }}>

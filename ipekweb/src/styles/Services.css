@@ -1,14 +1,16 @@
-.ServicesTopMain {
+.TopMain {
   display: flex;
   flex-direction: column;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 35vh;
-  width: 100%;
+  justify-content: center;
   align-items: flex-start;
-  justify-content: flex-end;
+  width: 100%;
   color: white;
   padding-bottom: 10px;
+  margin-top: 90px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25vh;
 }
 
 .Breadcrumb {
@@ -39,9 +41,7 @@
   margin: 20px;
 }
 
-.CardActionsDiv {
-  justify-content: center;
-}
+
 
 .moreButton {
   border: none;
@@ -63,14 +63,12 @@
   -webkit-tap-highlight-color: transparent;
   -webkit-text-size-adjust: 100%;
 }
-.CardActionsDiv{
-  justify-content: flex-start;
-}
+
 .engineeringProjectCardContent{
   justify-content: flex-start;
 }
 .css-46bh2p-MuiCardContent-root {
-  padding: 8px !important;
+  padding: 8px  !important;
 }
 :where(.css-dev-only-do-not-override-k7429z).ant-tabs-top >.ant-tabs-nav::before, :where(.css-dev-only-do-not-override-k7429z).ant-tabs-bottom >.ant-tabs-nav::before, :where(.css-dev-only-do-not-override-k7429z).ant-tabs-top >div>.ant-tabs-nav::before, :where(.css-dev-only-do-not-override-k7429z).ant-tabs-bottom >div>.ant-tabs-nav::before {
  

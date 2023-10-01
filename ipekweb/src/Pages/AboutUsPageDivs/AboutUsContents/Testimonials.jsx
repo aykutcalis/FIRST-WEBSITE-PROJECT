@@ -23,10 +23,11 @@ export const Testimonials = () => {
           </div>
 
           <p className="AboutUsTestimonialsDivs_p">
-            " Sürekli iyileştirme ve yenilikçilik kültürü, teknoloji ve
-            mühendislik disiplinleri aracılığıyla kurulmaktadır. Endüstriyel
-            sektörlerdeki dönüşüm, teknoloji ve mühendislik becerilerinin
-            sürekli olarak geliştirilmesini gerektirmektedir."
+            "Firmanın teknik uzmanları, iş süreçlerimizde önemli bir rol
+            oynuyor. İhtiyaçlarımızı anlamaları ve esneklikle hareket etmeleri,
+            başarıya ulaşmamızda kritik bir etkendir. Onların mükemmel müşteri
+            hizmetleri ve satış sonrası desteği, işbirliğimizin
+            sürdürülebilirliğini sağlamaktadır."
           </p>
           <a>
             {" "}
@@ -42,10 +43,11 @@ export const Testimonials = () => {
             </div>
           </div>
           <p className="AboutUsTestimonialsDivs_p">
-            " Eğitim ve sürekli öğrenme, teknoloji ve mühendislik alanlarında
-            yetenekli profesyonellerin yetişmesini sağlamaktadır. İnovasyon,
-            teknoloji ve mühendislik çalışmalarının önemli bir sonucudur ve
-            işletmelerin rekabet avantajını artırır."
+            "Tedarikçimiz, kaliteli ürünleri ve hizmetleriyle projelerimize
+            değer katıyor. Güvenilirlikleri ve etkin iletişimleri sayesinde,
+            işbirliğimizin başarılı bir şekilde devam etmesini sağlıyoruz. Hi
+            Food ile kurduğumuz güçlü iş ilişkisi, işimize önemli avantajlar
+            sağlamaktadır."
           </p>
           <a>
             {" "}
@@ -61,10 +63,11 @@ export const Testimonials = () => {
             </div>
           </div>
           <p className="AboutUsTestimonialsDivs_p">
-            " İşbirliği ve paylaşılan bilgi, teknoloji ve mühendislik
-            alanlarında ilerlemenin anahtarıdır. Dijitalleşme, teknoloji ve
-            mühendislik disiplinlerini daha fazla entegre etmekte ve
-            işletmelerin verimliliğini artırmaktadır."
+            "Firmanın uzmanlığı ve esnek yaklaşımı, projelerimizin başarısı için
+            önemli bir faktördür. Onlar, özel ihtiyaçlarımıza uygun çözümler
+            sunarak projelerimizin başarılı bir şekilde tamamlanmasına yardımcı
+            oluyor. İşbirliğimizdeki profesyonellik ve verimlilik, bizi her
+            zaman memnun ediyor."
           </p>
           <a>
             {" "}
@@ -82,11 +85,11 @@ export const Testimonials = () => {
             </div>
           </div>
           <p className="AboutUsTestimonialsDivs_p">
-            " Dijital simülasyon ve sanal gerçeklik, teknoloji ve mühendislik
-            çalışmalarında prototip oluşturmayı kolaylaştırır ve tasarımda zaman
-            ve maliyet tasarrufu sağlar. Veri güvenliği ve gizlilik, teknoloji
-            ve mühendislik çalışmalarının temel bir odak noktasıdır ve
-            işletmelerin itibarını korur."
+            "Uzun vadeli iş ortağımız, kaliteli boru ürünleriyle sektörde öncü
+            bir konumda bulunuyor. Sürdürülebilirlik ve çevresel
+            sorumluluklarına verdiği önem, işbirliğimizin değerini artırıyor.
+            Onlarla çalışmak, müşterilerimize en iyi çözümleri sunmamızı
+            sağlıyor."
           </p>
           <a>
             {" "}

@@ -95,7 +95,7 @@ export const EnvironmentProject = () => {
           <br></br> <br></br> İşlem, bir vakumlu kurutma adımıyla sona erer -
           verimli kurutma, bu da stabilize bir ürünün oluşumuyla sonuçlanır.
           <br></br>
-          <br></br> <br></br> İpek Mühendislik'ın amacı, kârlılığın yanı sıra,
+          <br></br> <br></br> HI FOOD TECH'ın amacı, kârlılığın yanı sıra,
           kuruluşların sosyal ve çevresel farkındalığını artırmak, döngüsel
           ekonomi perspektifinde ekonomik ve çevresel katma değer sağlayan
           çözümler sunmaktır.
